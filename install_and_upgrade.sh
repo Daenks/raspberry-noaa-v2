@@ -25,7 +25,7 @@ log_finished() {
 
 # run as a normal user
 if [ $EUID -eq 0 ]; then
-  die "Please run this script as the pi user (not as root)"
+  die "Please run this script as the daenks user (not as root)"
 fi
 
 # verify the repo exists as expected in the home directory
@@ -131,7 +131,7 @@ log_running "Updating web content..."
 (
   find $WEB_HOME/ -mindepth 1 -type d -name "Config" -prune -o -print | xargs rm -rf &&
   cp -r $NOAA_HOME/webpanel/* $WEB_HOME/ &&
-  sudo chown -R pi:www-data $WEB_HOME/ &&
+  sudo chown -R daenks:www-data $WEB_HOME/ &&
   composer install -d $WEB_HOME/
 ) || die "  Something went wrong updating web content - please inspect the logs above"
 

@@ -3,8 +3,8 @@
   file:
     path: ramfs_path
     state: directory
-    owner: pi
-    group: pi
+    owner: daenks
+    group: daenks
     mode: 0770
 
 - name: get system memory

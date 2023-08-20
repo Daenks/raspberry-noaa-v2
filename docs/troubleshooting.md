@@ -56,7 +56,7 @@ anything, it's possible one of several things is wrong such as driver installati
 search is likely your next best bet.
 
 
-If you just want to hear from the pi itself you can plug in headphones to the pi and enter:
+If you just want to hear from the daenks itself you can plug in headphones to the daenks and enter:
 
 ```rtl_fm -f 97.3e6 -M wbfm -s 200000 -r 48000 - | aplay -r 48000 -f S16_LE```
 
@@ -204,9 +204,9 @@ Below are some useful commands in a more summary fashion:
 * Read the main log file: `less /var/log/raspberry-noaa-v2/output.log`
 * List the scheduled passes: `atq`
 * Cancel a pass: `atrm <job_id>`
-* Location of the tmp directory: `/home/pi/raspberry-noaa-v2/tmp/`
+* Location of the tmp directory: `/home/daenks/raspberry-noaa-v2/tmp/`
 * Location of the wav files: `/srv/audio/noaa` and `/srv/audio/meteor`
-* Location of the database: `/home/pi/raspberry-noaa-v2/db/panel.db`
+* Location of the database: `/home/daenks/raspberry-noaa-v2/db/panel.db`
 * Location of the images: `/srv/images`
 
 # Webpanel Expired Certificate

@@ -50,7 +50,7 @@ rtlsdr_noaa_apt_rx.grc
 rtlsdr_noaa_apt_rx.png
 ```
 
-The ```.grc``` files are source files that can be opened and explored in gnuradio composer. gnuradio is installed as a prerequisite for RN2 operations, so you already have the app, however if you installed on a 'headless' raspberry pi you will have no way to edit, so it may be that you need to install gnuradio on another machine to explore / edit your own ```.grc``` files. 
+The ```.grc``` files are source files that can be opened and explored in gnuradio composer. gnuradio is installed as a prerequisite for RN2 operations, so you already have the app, however if you installed on a 'headless' raspberry daenks you will have no way to edit, so it may be that you need to install gnuradio on another machine to explore / edit your own ```.grc``` files. 
 
 The two ```.png``` are rendered below. They are screen grabs from gnuradio composer. 
 
